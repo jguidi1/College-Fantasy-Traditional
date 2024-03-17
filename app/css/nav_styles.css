@@ -1,0 +1,39 @@
+/* Add some basic styling for the navigation bar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f1f1f1;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    background-color: black;
+    color: #f1f1f1; /* Change text color to white */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px; /* Make buttons rounded */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Style the logo */
+.logo {
+    width: auto; /* Adjust the width as needed */
+    height: auto;
+    background-color: #f1f1f1;
+}
+
+.logo:hover{
+    background-color: #f1f1f1;
+}
