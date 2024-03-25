@@ -41,7 +41,7 @@ class Player(db.Model):
    id = db.Column(db.Integer, primary_key=True)
    firstName = db.Column(db.String(64))
    lastName = db.Column(db.String(64))
-   avgScore = db.Column(db.Integer, index=True)
+   avg_score = db.Column(db.Integer, index=True)
 
 class College(db.Model):
    id = db.Column(db.Integer, primary_key=True)
@@ -79,7 +79,7 @@ class schedule(db.Model):
    lid = db.Column(db.Integer, db.ForeignKey('League.id'), index=True)
    htid = db.Column(db.Integer, db.ForeignKey('Team.id'), index=True)
    atid = db.Column(db.Integer, db.ForeignKey('Team.id'), index=True)
-   hscore = db.Column(db.Integer)
+   home_score = db.Column(db.Integer)
    ascore = db.Column(db.Integer)
    wid = db.Column(db.Integer, db.ForeignKey('stat.week'), index=True)
    htw = db.Column(db.Boolean)
