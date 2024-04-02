@@ -381,3 +381,19 @@ def populate_db():
     return "Database populated successfully"
 
 
+# players = [ 
+
+#     {firstName: "", lastName: "", avgScore: 100},
+#       {firstName: "", lastName: "", avgScore: 100},
+#         {firstName: "", lastName: "", avgScore: 100},
+#           {firstName: "", lastName: "", avgScore: 100},
+#             {firstName: "", lastName: "", avgScore: 100},
+#               {firstName: "", lastName: "", avgScore: 100},
+    
+# ]
+
+
+
+# {
+#     players.map(player => return <></>)
+# }
