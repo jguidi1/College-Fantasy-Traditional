@@ -1,0 +1,232 @@
+/* Home(logged out) */
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F1F1F1;
+}
+
+/* Sign In Button */
+.sign-in-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 85px;
+    height: 44px;
+    left: 1304px;
+    top: 21px;
+    background: #000000;
+    border-radius: 50px;
+}
+
+.sign-in-btn span {
+    width: 65px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Top 25 Showdown Logo */
+.logo {
+    position: absolute;
+    width: 385.16px;
+    height: 60px;
+    left: 15px;
+    top: 15px;
+    background: url('Top 25 Showdown-logos_transparent_trimmed.png');
+}
+
+/* Statement */
+.statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 602px;
+    height: 56px;
+    left: 419px;
+    top: 334px;
+}
+
+.statement span {
+    width: 582px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Top 25 List */
+.top-25-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 476px;
+    left: 390px;
+    top: 470px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.top-25-list span {
+    width: 400px;
+    height: 450px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Top 25 Header */
+.top-25-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 390px;
+    top: 426px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.top-25-header span {
+    width: 179px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Want in Statement */
+.want-in-statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    left: 720px;
+    top: 426px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.want-in-statement span {
+    width: 210px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Sign up/in Buttons */
+.sign-up-in-buttons {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 720px;
+    top: 470px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* Sign In Button */
+.sign-in-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 44px;
+    left: 25px;
+    top: 85px;
+    background: #000000;
+    border-radius: 50px;
+}
+
+.sign-in-btn span {
+    width: 65px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Sign Up Button */
+.sign-up-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 44px;
+    left: 25px;
+    top: 27px;
+    background: #000000;
+    border-radius: 50px;
+}
+
+.sign-up-btn span {
+    width: 75px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Large Main Header */
+.large-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1184px;
+    height: 141px;
+    left: 128px;
+    top: 193px;
+}
+
+.large-header span {
+    width: 1164px;
+    height: 121px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 121px;
+    text-align: center;
+    color: #000000;
+}

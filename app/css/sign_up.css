@@ -1,0 +1,68 @@
+/* Sign Up */
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F1F1F1;
+  }
+  
+  /* Top 25 Showdown-logos_transparent_trimmed 2 */
+  #top-logo {
+    position: absolute;
+    width: 385.16px;
+    height: 60px;
+    left: 15px;
+    top: 15px;
+    background: url('Top 25 Showdown-logos_transparent_trimmed.png');
+  }
+  
+  /* Sign Up Form */
+  #signup-form {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    left: 470px;
+    top: 162px;
+    background: #8B8C89;
+    border-radius: 10px;
+  }
+  
+  /* Common styles for input fields */
+  .input-field {
+    width: 400px;
+    height: 49px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    background: #F1F1F1;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Create Account Button */
+  #create-account-btn {
+    width: 177px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 24px;
+    background: #000000;
+    color: #FFFFFF;
+  }
+  
+  /* Already have an account? */
+  #already-have-account {
+    font-size: 24px;
+  }
+  
+  /* Sign In Button */
+  #signin-btn {
+    width: 80px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  

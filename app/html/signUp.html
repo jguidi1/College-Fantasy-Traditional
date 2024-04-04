@@ -4,65 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top 25 Showdown</title>
+    <link rel="stylesheet" href="/College-Fantasy-Traditional/app/css/nav_styles.css">
+    <link rel="stylesheet" href="/College-Fantasy-Traditional/app/css/sign_up.css">
   </head>
   <body>
     <!-- Nav bar -->
     <nav>
       <a href="home_signedOut.html">
-        <img src="/images/MainLogo.png" alt="T25S_LOGO" class="T25S_LOGO">
+        <img src="/College-Fantasy-Traditional/app/images/MainLogo.png" alt="T25S_LOGO" class="T25S_LOGO">
       </a>
       <div>
-      <a href="settings.html">Settings</a>
-      <a href="myTeams.html">My Team(s)</a>
-      <a href="home_signedOut.html">Sign Out</a>
+        <a href="settings.html">Settings</a>
+        <a href="myTeams.html">My Team(s)</a>
+        <a href="home_signedOut.html">Sign Out</a>
       </div>
     </nav>
 
-    <form>
-    <div>
-      <!-- Form Header -->
+    <form id="signup-form">
       <div>
-        <h1>Sign In</h1>
-      </div>
+        <!-- Form Header -->
+        <div id="sign-up-header">
+          <h1>Sign Up</h1>
+        </div>
 
-      <!-- first name entry -->
-      <div>
-        <label for="fname">First Name</label>
-        <input id="fname" type="text" />
-      </div>
+        <!-- First name entry -->
+        <div class="input-field">
+          <label for="fname">First Name</label>
+          <input id="fname" type="text" />
+        </div>
 
-      <!-- Last name entry -->
-      <div>
-        <label for="lname">Last Name</label>
-        <input id="lname" type="text" />
-      </div>
+        <!-- Last name entry -->
+        <div class="input-field">
+          <label for="lname">Last Name</label>
+          <input id="lname" type="text" />
+        </div>
 
-      <!-- Email entry -->
-      <div>
-        <label for="email">Email</label>
-        <input id="email" type="email" />
-      </div>
+        <!-- Email entry -->
+        <div class="input-field">
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
 
-      <!-- password entry -->
-      <div>
-        <label for="password">Password</label>
-        <input id="password" type="password" />
-      </div>
+        <!-- Password entry -->
+        <div class="input-field">
+          <label for="password">Password</label>
+          <input id="password" type="password" />
+        </div>
 
-      <!-- confirm password entry -->
-      <div>
-        <label for="password">Password</label>
-        <input id="password" type="password" />
-      </div>
+        <!-- Confirm password entry -->
+        <div class="input-field">
+          <label for="confirm-password">Confirm Password</label>
+          <input id="confirm-password" type="password" />
+        </div>
 
-      <!-- signUp/submit button -->
-      <div>
-        <button type="submit">Create Account</button>
-      </div>
+        <!-- Sign up/submit button -->
+        <div id="signup-button-container">
+          <button type="submit" id="create-account-btn">Create Account</button>
+        </div>
 
-      <!-- new user sign up anchor -->
-      <p>Already have an account? <a href="signIn.html">Sign In</a></p>
-    </div>
+        <!-- New user sign up anchor -->
+        <p id="already-have-account">Already have an account? <a href="signIn.html">Sign In</a></p>
+      </div>
     </form>
 
   </body>

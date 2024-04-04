@@ -2,32 +2,33 @@
 /* Sign In Container */
 .signin-container {
     position: relative;
-    width: 1440px;
-    height: 1024px;
+    width: 100%; /* Adjusted to be responsive */
+    height: auto; /* Adjusted to be responsive */
     background: #F1F1F1;
 }
+
 /* Top Logo */
 .top-logo {
-    position: absolute;
     width: 385.16px;
     height: 60px;
-    left: 15px;
-    top: 15px;
+    margin: 15px; /* Changed from absolute positioning */
     /* background: url(Top 25 Showdown-logos_transparent_trimmed); */
 }
+
 /* Sign In Form */
 .signin-form {
-    position: absolute;
     width: 500px;
-    height: 700px;
-    left: 470px;
-    top: 162px;
+    height: auto; /* Adjusted to be responsive */
+    margin: 0 auto; /* Centering the form horizontally */
+    padding: 20px; /* Added padding for better appearance */
     background: #8B8C89;
     border-radius: 10px;
 }
+
 /* Sign Up Anchor */
 .signup-anchor {
     /* Your styles here */
 }
+
 /* Other styles continue similarly */
 /* Add more styles as needed */
