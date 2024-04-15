@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-card {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .team-info {
+    margin-bottom: 20px;
+  }
+  
+  .last-matchup {
+    text-align: right;
+  }
+  
+  .matchup-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .bottom-card {
+    flex: 2;
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  th:first-child, td:first-child {
+    text-align: center;
+  }
+  
+  td:last-child {
+    text-align: center;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

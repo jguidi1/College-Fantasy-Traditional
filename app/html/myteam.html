@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Stats</title>
+  <link rel="stylesheet" href="/College-Fantasy-Traditional/app/css/nav_styles.css">
+  <link rel="stylesheet" href="/College-Fantasy-Traditional/app/css/my_team.css">
 </head>
 <body>
-    <!-- Nav bar -->
-    <nav>
-        <a href="home_signedIn.html">
-          <img src="/images/MainLogo.png" alt="T25S_LOGO" class="T25S_LOGO">
-        </a>
-        <div>
-        <a href="settings.html">Settings</a>
-        <a href="myTeams.html">My Team(s)</a>
-        <a href="home_signedOut.html">Sign Out</a>
+<!-- Nav bar -->
+<nav>
+  <a href="home_signedOut.html">
+    <img src="/College-Fantasy-Traditional/app/images/MainLogo.png" alt="T25S_LOGO" class="T25S_LOGO">
+  </a>
+  <div class="nav-links">
+    <a href="settings.html">Settings</a>
+    <a href="myTeams.html">My Team(s)</a>
+    <a href="home_signedOut.html">Sign Out</a>
+  </div>
+</nav>
+
+  <div class="container">
+    <div class="top-card">
+      <div class="team-info">
+        <h2>Team Name</h2>
+        <p>Record: X wins, Y losses</p>
+        <a href="#">More Info</a>
+      </div>
+      <div class="last-matchup">
+        <h3>Last Matchup</h3>
+        <div class="matchup-box">
+          <p>Team 1: score</p>
+          <p>Team 3: score</p>
         </div>
-      </nav>
+      </div>
+    </div>
+    <div class="bottom-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Player</th>
+            <th>Opponent</th>
+            <th>Average Score</th>
+            <th>Actual Score</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows will be dynamically generated -->
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>
